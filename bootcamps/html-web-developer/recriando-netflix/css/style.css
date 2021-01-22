@@ -10,6 +10,7 @@
 body {
   background: var(--preto);
   font-family: "Times New Roman", Times, serif;
+  color: white;
 }
 header .container {
   display: flex;
@@ -30,4 +31,23 @@ header nav a {
 }
 header nav a:hover {
   color: #fff;
+}
+
+/* Movie */
+
+.primary-movie {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%), url(/statics/gambito.jpg);
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.btns {
+  margin-top: 40px;
+}
+.title {
+  font-size: 40px;
 }
